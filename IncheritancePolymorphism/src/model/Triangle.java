@@ -20,6 +20,10 @@ public class Triangle extends Figure implements Artist {
         System.out.println("Площадь треугольника " + (double) base * height / 2);
     }
 
+
+    /**
+     * method compiled by xeniaBch
+     */
     @Override
     public void drawFigure() {
         System.out.println("--------------------------------------------------------------");

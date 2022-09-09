@@ -2,7 +2,7 @@ package modelInteface;
 
 public class SuperClass {
 
-    void myMethodFromSuperClass(){
+    void myMethodFromSuperClass(String line){
         System.out.println("Hello");
     }
 }
