@@ -1,10 +1,10 @@
 package model;
 
-import App.Main;
 import inteface.Artist;
+import inteface.Painter;
 import myEnum.Color;
 
-public class Rectangle extends Figure implements Artist, Main.Paintner {
+public class Rectangle extends Figure implements Artist, Painter {
 
     int width;
     int height;

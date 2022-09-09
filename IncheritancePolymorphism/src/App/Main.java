@@ -9,19 +9,19 @@ import myEnum.Color;
 public class Main {
     public static void main(String[] args) {
 
-        Rectangle rectangle1 = new Rectangle('*', Color.RED,6, 2);
-        Rectangle rectangle2 = new Rectangle('^', Color.WHITE,7,5);
-        Triangle triangle1 = new Triangle('$', Color.RED, 5,6);
-        Triangle triangle2 = new Triangle('#', Color.BLACK, 8,3);
-        Square square1 = new Square('!', Color.BLACK,5);
-        Square square2= new Square('%', Color.RED,6);
+        Rectangle rectangle1 = new Rectangle('*', Color.RED, 6, 2);
+        Rectangle rectangle2 = new Rectangle('^', Color.WHITE, 7, 5);
+        Triangle triangle1 = new Triangle('$', Color.RED, 5, 6);
+        Triangle triangle2 = new Triangle('#', Color.BLACK, 8, 3);
+        Square square1 = new Square('!', Color.BLACK, 5);
+        Square square2 = new Square('%', Color.RED, 6);
 
 
         rectangle1.calculateArea();
         square1.calculateArea();
         triangle1.calculateArea();
 
-        Figure figure = new Rectangle('*', Color.RED,6,7);
+        Figure figure = new Rectangle('*', Color.RED, 6, 7);
 
         figure.calculateArea();
 
@@ -39,10 +39,5 @@ public class Main {
 
         rectangle1.drawFigure();
         triangle1.drawFigure();
-    }
-
-    public static interface Paintner {
-
-        public void paintFigure();
     }
 }
