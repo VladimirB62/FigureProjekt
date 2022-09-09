@@ -1,4 +1,8 @@
-public class Figure{
+package model;
+
+import myEnum.Color;
+
+public abstract class Figure{
 
     private char symbol;
     private Color color;
@@ -27,4 +31,5 @@ public class Figure{
     public void calculateArea(){
         System.out.println("Я считаю площадь фигуры");
     }
+
 }
