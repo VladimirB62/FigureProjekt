@@ -16,8 +16,9 @@ public class Rectangle extends Figure implements Artist, Painter {
     }
 
     @Override
-    public void calculateArea(){
+    public double calculateArea(){
         System.out.println("Площадь прямоугольника " + width*height);
+        return width*height;
     }
 
 

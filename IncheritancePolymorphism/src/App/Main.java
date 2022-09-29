@@ -6,6 +6,10 @@ import model.Square;
 import model.Triangle;
 import myEnum.Color;
 
+import java.util.Arrays;
+import java.util.Collections;
+import java.util.List;
+
 public class Main {
     public static void main(String[] args) {
 
@@ -37,7 +41,13 @@ public class Main {
             figures[i].calculateArea();
         }
 
+        List<Figure> figureList = Arrays.asList(figures);
+
         rectangle1.drawFigure();
         triangle1.drawFigure();
+
+        System.out.println("***********************************************************************");
+        Collections.sort(figureList, new FigureBySguareComporator());
+        System.out.println(figureList.toString());
     }
 }

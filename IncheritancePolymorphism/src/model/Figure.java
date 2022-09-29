@@ -2,7 +2,7 @@ package model;
 
 import myEnum.Color;
 
-public abstract class Figure{
+public abstract class Figure {
 
     private char symbol;
     private Color color;
@@ -10,6 +10,15 @@ public abstract class Figure{
     public Figure(char symbol, Color color) {
         this.symbol = symbol;
         this.color = color;
+    }
+
+    @Override
+    public String toString() {
+        return "Figure{" +
+                "symbol=" + symbol +
+                ", color=" + color +
+                "  " + calculateArea() +
+                '}';
     }
 
     public char getSymbol() {
@@ -28,8 +37,9 @@ public abstract class Figure{
         this.color = color;
     }
 
-    public void calculateArea(){
+    public double calculateArea(){
         System.out.println("Я считаю площадь фигуры");
+        return 0;
     }
 
 }

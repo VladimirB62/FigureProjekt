@@ -1,6 +1,5 @@
 package model;
 
-import model.Figure;
 import myEnum.Color;
 
 public class Square extends Figure {
@@ -13,7 +12,8 @@ public class Square extends Figure {
     }
 
     @Override
-    public void calculateArea(){
+    public double calculateArea(){
         System.out.println("Площадь квадрата " + side*side);
+        return side*side;
     }
 }

@@ -16,8 +16,9 @@ public class Triangle extends Figure implements Artist {
     }
 
     @Override
-    public void calculateArea() {
+    public double calculateArea() {
         System.out.println("Площадь треугольника " + (double) base * height / 2);
+        return (double) base * height / 2;
     }
 
 

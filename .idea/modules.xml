@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/BookStore/BookStore.iml" filepath="$PROJECT_DIR$/BookStore/BookStore.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/FigureProjekt.iml" filepath="$PROJECT_DIR$/.idea/FigureProjekt.iml" />
+      <module fileurl="file://$PROJECT_DIR$/IncheritancePolymorphism/IncheritancePolymorphism.iml" filepath="$PROJECT_DIR$/IncheritancePolymorphism/IncheritancePolymorphism.iml" />
+      <module fileurl="file://$PROJECT_DIR$/comparator/comparator.iml" filepath="$PROJECT_DIR$/comparator/comparator.iml" />
+      <module fileurl="file://$PROJECT_DIR$/incapsulation/incapsulation.iml" filepath="$PROJECT_DIR$/incapsulation/incapsulation.iml" />
+      <module fileurl="file://$PROJECT_DIR$/myPhone/myPhone.iml" filepath="$PROJECT_DIR$/myPhone/myPhone.iml" />
+      <module fileurl="file://$PROJECT_DIR$/productManagementProjekt/productManagementProjekt.iml" filepath="$PROJECT_DIR$/productManagementProjekt/productManagementProjekt.iml" />
+    </modules>
+  </component>
+</project>
